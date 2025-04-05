@@ -1,6 +1,12 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+import '../components/Tooltip/components/TooltipArrow/TooltipArrow.global.scss';
+import '../components/Tooltip/Tooltip.global.scss';
+
+import type { Metadata } from 'next';
+import {
+  Geist,
+  Geist_Mono,
+} from 'next/font/google';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
